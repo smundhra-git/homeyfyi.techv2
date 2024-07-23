@@ -1,0 +1,126 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+/* Variables */
+:root {
+  --font-family: 'Manrope', sans-serif;
+  --color-bg: #040c18;
+  --color-text: #81afdd;
+  --color-button: #FF4820;
+}
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  background: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.App-logo {
+  width: 500px; /* Adjust logo size as needed */
+  height: 500px;
+  margin-bottom: 1rem;
+}
+
+.prompt-input,
+.file-input {
+  padding: 0.5rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  background: transparent;
+  height: 50px;
+  width: 250px;
+}
+
+.prompt-address,
+.file-input {
+  padding: 0.5rem;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  background: transparent;
+  height: 50px;
+  width: 250px;
+}
+
+.submit-button {
+  padding: 0.5rem 1rem;
+  background: var(--color-button);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.response-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.response-section {
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.score-scale {
+  position: relative;
+  height: 20px;
+  background: linear-gradient(to right, red 0%, yellow 50%, green 100%);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.score-pointer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: black; /* Pointer color */
+  transform: translateX(-50%);
+}
+
+.response-section ul {
+  list-style-type: disc; /* Default bullet points */
+  padding-left: 20px; /* Indent bullet points */
+}
+
+.response-section li {
+  text-align: left; /* Align text to the left if your design requires it */
+  margin-bottom: 5px; /* Add space between bullet points */
+}
+
+a {
+  color: #ffffff; /* Sets the link color to white */
+  text-decoration: underline; /* Ensures the link is underlined */
+  font-size: 1.2em; /* Makes the link text a little bigger than the surrounding text */
+}
+
+
+/* Add additional styles if needed */

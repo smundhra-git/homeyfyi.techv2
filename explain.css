@@ -1,0 +1,55 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Dark blue background */
+    color: #ffffff; /* White text */
+}
+
+header, footer {
+    background-color: #040c18;; /* Slightly lighter blue for header/footer */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #7FDBFF; /* Light blue for headings */
+}
+
+p, ul, li {
+    line-height: 1.6;
+}
+
+.score-range {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.score-range span {
+    color: #111;
+    font-weight: bold;
+}
+
+.score-category {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.excellent { color: #2ECC40; } /* Green for excellent */
+.good { color: #01FF70; } /* Light green for good */
+.average { color: #FFDC00; } /* Yellow for average */
+.poor { color: #FF851B; } /* Orange for poor */
+.critical { color: #FF4136; } /* Red for critical */
+
+footer {
+    font-size: 0.8em;
+}
