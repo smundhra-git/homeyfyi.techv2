@@ -5,7 +5,7 @@ import os
 import script
 from script import post_files, summarize, get_summarized_test, summarize_files_and_get_insights, analyze_sentiment_and_get_score
 
-
+#adding features
 app = Flask(__name__, static_folder='../build', static_url_path='/')
 CORS(app)  # This will enable CORS for all routes
 
